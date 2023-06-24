@@ -1,0 +1,83 @@
+{
+  "base": {
+    "parent": null,
+    "length": 1.0,
+    "z": 0.0,
+    "y": 0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": false
+  },
+  "panel_base": {
+    "parent": "base",
+    "length": 1.0,
+    "z": 0.0,
+    "y": 0.0,
+    "x": 1.5707963705062866,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": 0.0,
+      "y": 45.0,
+      "z": 0.0
+    }
+  },
+  "inner_center": {
+    "parent": "panel_base",
+    "length": 10.0,
+    "z": 0.0,
+    "y": 0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": false
+  },
+  "inner_front": {
+    "parent": "panel_base",
+    "length": 10.0,
+    "z": -0.0872664600610733,
+    "y": 0.1483529806137085,
+    "x": 0.0,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "inner_back": {
+    "parent": "panel_base",
+    "length": 10.0,
+    "z": 0.0872664600610733,
+    "y": -0.1483529806137085,
+    "x": 0.0,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "outer_front": {
+    "parent": "panel_base",
+    "length": 10.0,
+    "z": -0.1745329201221466,
+    "y": 0.296705961227417,
+    "x": 0.0,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "outer_back": {
+    "parent": "panel_base",
+    "length": 10.0,
+    "z": 0.1745329201221466,
+    "y": -0.296705961227417,
+    "x": 0.0,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "backpack_base": {
+    "parent": null,
+    "length": 5.5,
+    "z": 0.0,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": false
+  },
+  "backpack_outer": {
+    "parent": "backpack_base",
+    "length": 10.0,
+    "z": 0.0,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": 0.0,
+      "y": 3.5,
+      "z": 0.0
+    }
+  },
+  "backpack_canard": {
+    "parent": "backpack_outer",
+    "length": 10.0,
+    "z": 3.1415927410125732,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": 0.0,
+      "y": 39.0,
+      "z": -10.0
+    }
+  },
+  "backpack_thruster": {
+    "parent": "backpack_outer",
+    "length": 10.0,
+    "z": 0.0,
+    "y": -0.0,
+    "x": 1.5707963705062866,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": 0.0,
+      "y": -49.0,
+      "z": -8.0
+    }
+  }
+}

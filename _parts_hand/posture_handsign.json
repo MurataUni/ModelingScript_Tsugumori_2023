@@ -1,0 +1,163 @@
+{
+  "wrist": {
+    "parent": null,
+    "length": 2.0,
+    "z": 0.0,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": false
+  },
+  "palm": {
+    "parent": "wrist",
+    "length": 10.0,
+    "z": 0.0,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": false
+  },
+  "thumb_proximal_phalanx": {
+    "parent": "palm",
+    "length": 2.8000001907348633,
+    "z": 0.3468427360057831,
+    "y": -2.4434609413146973,
+    "x": -0.5583745241165161,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": 3.5,
+      "y": -0.75,
+      "z": -7.5
+    }
+  },
+  "thumb_middle_phalanx": {
+    "parent": "thumb_proximal_phalanx",
+    "length": 4.999999523162842,
+    "z": 0.0,
+    "y": 0.0,
+    "x": 0.3490658402442932,
+    "is_disconnected_to_parent": false
+  },
+  "thumb_distal_phalanx": {
+    "parent": "thumb_middle_phalanx",
+    "length": 3.5,
+    "z": 0.0,
+    "y": 0.0,
+    "x": 0.5235987901687622,
+    "is_disconnected_to_parent": false
+  },
+  "index_f_proximal_phalanx": {
+    "parent": "palm",
+    "length": 3.6000006198883057,
+    "z": -0.2023533135652542,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": 2.0999999046325684,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "index_f_middle_phalanx": {
+    "parent": "index_f_proximal_phalanx",
+    "length": 5.40000057220459,
+    "z": 0.0,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": false
+  },
+  "index_f_distal_phalanx": {
+    "parent": "index_f_middle_phalanx",
+    "length": 3.499999761581421,
+    "z": 0.0,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": false
+  },
+  "middle_f_proximal_phalanx": {
+    "parent": "palm",
+    "length": 3.6000001430511475,
+    "z": 0.07035189121961594,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": 0.699999988079071,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "middle_f_middle_phalanx": {
+    "parent": "middle_f_proximal_phalanx",
+    "length": 5.40000057220459,
+    "z": 0.0,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": false
+  },
+  "middle_f_distal_phalanx": {
+    "parent": "middle_f_middle_phalanx",
+    "length": 3.500000476837158,
+    "z": 0.0,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": false
+  },
+  "ring_f_proximal_phalanx": {
+    "parent": "palm",
+    "length": 3.6000006198883057,
+    "z": 0.23976019024848938,
+    "y": -0.10083373636007309,
+    "x": 1.2296055555343628,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": -0.699999988079071,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "ring_f_middle_phalanx": {
+    "parent": "ring_f_proximal_phalanx",
+    "length": 5.400000095367432,
+    "z": -0.11808008700609207,
+    "y": -0.10637818276882172,
+    "x": 1.6751879453659058,
+    "is_disconnected_to_parent": false
+  },
+  "ring_f_distal_phalanx": {
+    "parent": "ring_f_middle_phalanx",
+    "length": 3.500000238418579,
+    "z": -0.017420390620827675,
+    "y": -0.05858447402715683,
+    "x": 0.5779145359992981,
+    "is_disconnected_to_parent": false
+  },
+  "little_f_proximal_phalanx": {
+    "parent": "palm",
+    "length": 3.6000003814697266,
+    "z": 0.08704018592834473,
+    "y": -0.23536278307437897,
+    "x": 1.2127317190170288,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": -2.0999999046325684,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "little_f_middle_phalanx": {
+    "parent": "little_f_proximal_phalanx",
+    "length": 5.399999618530273,
+    "z": -0.11245033890008926,
+    "y": -0.004678757861256599,
+    "x": 1.607296109199524,
+    "is_disconnected_to_parent": false
+  },
+  "little_f_distal_phalanx": {
+    "parent": "little_f_middle_phalanx",
+    "length": 3.500000238418579,
+    "z": 0.0,
+    "y": 0.0,
+    "x": 1.0471975803375244,
+    "is_disconnected_to_parent": false
+  }
+}

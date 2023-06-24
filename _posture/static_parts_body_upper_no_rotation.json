@@ -1,0 +1,49 @@
+{
+  "base": {
+    "parent": null,
+    "length": 10.0,
+    "z": 0.0,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": false
+  },
+  "upper_front": {
+    "parent": "base",
+    "length": 10.0,
+    "z": 0.0,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 14.5
+    }
+  },
+  "upper_back_core": {
+    "parent": "base",
+    "length": 10.0,
+    "z": 0.0,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": 0.0,
+      "y": -18.0,
+      "z": 20.0
+    }
+  },
+  "backpack_adapter_base": {
+    "parent": "upper_back_core",
+    "length": 10.0,
+    "z": 0.0,
+    "y": -0.0,
+    "x": 0.0,
+    "is_disconnected_to_parent": true,
+    "parent_offset": {
+      "x": 0.0,
+      "y": 3.0,
+      "z": -9.0
+    }
+  }
+}
