@@ -11,7 +11,8 @@
 
 辞書の結合に"|"演算子を使用しているのでPython 3.9以降が必要  
 動作確認はPython 3.10.5を使用  
-[Harbor3d](https://github.com/MarataUni/Harbor3d)がインストールされている環境で実行できる
+[Harbor3d](https://github.com/MarataUni/Harbor3d)がインストールされている環境で実行できる  
+(Harbor3d の対応バージョンは[ver 0.2.1](https://github.com/MurataUni/Harbor3d/releases/tag/v_0_2_1))
 
 ## Usage
 
